@@ -42,7 +42,7 @@ layout: default
   <article class="post-content">
     {% if page.toc and page.toc.beginning %}
     <div id="table-of-contents">
-      {% toc %}
+      <!-- 目录将由 JavaScript 生成 -->
     </div>
     <hr>
     {% endif %}
@@ -64,6 +64,105 @@ layout: default
       {% include related_posts.html %}
     {%- endif %}
   {%- endif %}
+
+  <!-- 目录生成脚本 -->
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // 检查是否需要生成目录
+    var tocContainer = document.getElementById('table-of-contents');
+    if (!tocContainer) return;
+    
+    // 获取所有标题
+    var headings = document.querySelectorAll('#markdown-content h1, #markdown-content h2, #markdown-content h3');
+    if (headings.length === 0) {
+      tocContainer.style.display = 'none';
+      return;
+    }
+    
+    // 创建目录标题
+    tocContainer.innerHTML = '<h3>目录</h3>';
+    
+    // 创建目录列表
+    var tocList = document.createElement('ul');
+    tocList.className = 'toc-list';
+    
+    // 遍历所有标题
+    for (var i = 0; i < headings.length; i++) {
+      var heading = headings[i];
+      var level = parseInt(heading.tagName.substring(1));
+      
+      // 确保标题有ID（用于锚点链接）
+      if (!heading.id) {
+        // 创建基于文本内容的ID
+        heading.id = 'heading-' + i + '-' + heading.textContent.toLowerCase().replace(/[^\w]+/g, '-');
+      }
+      
+      // 创建目录项
+      var listItem = document.createElement('li');
+      listItem.className = 'toc-level-' + level;
+      
+      // 创建链接
+      var link = document.createElement('a');
+      link.href = '#' + heading.id;
+      link.textContent = heading.textContent;
+      
+      listItem.appendChild(link);
+      tocList.appendChild(listItem);
+    }
+    
+    // 将目录列表插入到容器中
+    tocContainer.appendChild(tocList);
+  });
+  </script>
+
+  <style>
+  /* 目录样式 */
+  #table-of-contents {
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+  
+  #table-of-contents h3 {
+    margin-top: 0;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+  }
+  
+  #table-of-contents .toc-list {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+  }
+  
+  #table-of-contents .toc-list li {
+    margin-bottom: 5px;
+  }
+  
+  #table-of-contents .toc-list li.toc-level-1 {
+    margin-left: 0;
+    font-weight: bold;
+  }
+  
+  #table-of-contents .toc-list li.toc-level-2 {
+    margin-left: 15px;
+  }
+  
+  #table-of-contents .toc-list li.toc-level-3 {
+    margin-left: 30px;
+    font-size: 0.9em;
+  }
+  
+  #table-of-contents .toc-list a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  #table-of-contents .toc-list a:hover {
+    text-decoration: underline;
+  }
+  </style>
 
   {%- if site.disqus_shortname and page.disqus_comments -%}
     {% include disqus.html %}
