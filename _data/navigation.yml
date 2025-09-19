@@ -1,0 +1,23 @@
+# 主导航栏设置
+main:
+  - name: "关于"
+    url: "/about/"
+    icon: fas fa-user
+  - name: "博客"
+    url: "/blog/"
+    icon: fas fa-pen
+  - name: "项目"
+    url: "/projects/"
+    icon: fas fa-code
+  - name: "出版物"
+    url: "/publications/"
+    icon: fas fa-book
+  - name: "教程"
+    url: "/teaching/"
+    icon: fas fa-chalkboard-teacher
+
+# 下拉菜单或辅助链接（可选）
+# links:
+#   - name: "CV"
+#     url: "/assets/pdf/cv.pdf"
+#     icon: fas fa-file-pdf
