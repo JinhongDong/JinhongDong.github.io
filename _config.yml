@@ -15,7 +15,7 @@ footer_text: >
 keywords: jekyll, 个人网站, 学习笔记, 项目作品 # 修改了关键词
 
 lang: en # 保持英文，避免可能的兼容性问题
-icon: ⚛️  # 网站图标
+icon: 🌙  # 网站图标
 
 url: https://JinhongDong.github.io # 你的网站地址
 baseurl:  # 子路径，保持为空
