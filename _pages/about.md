@@ -41,8 +41,9 @@ social: true  # includes social icons at the bottom of the page
 
 除了编程，我还喜欢阅读、旅行和摄影。我相信生活与工作的平衡是创造力的来源。
 
-
-#<img src="https://user-images.githubusercontent.com/543384/178952701-6e595809-3059-41d4-9d88-356a9b339445.png" align = "middle" width = "800px">
+<!--
+<img src="https://user-images.githubusercontent.com/543384/178952701-6e595809-3059-41d4-9d88-356a9b339445.png" align = "middle" width = "800px">
+-->
 
 <!--
 <br>
