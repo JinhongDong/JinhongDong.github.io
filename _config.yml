@@ -2,19 +2,19 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
-first_name: 
+title: Jinhong Dong的个人网站 # the website title (if blank, full name will be used instead)
+first_name: Jinhong
 middle_name: 
-last_name: 
-email: wangchengjun@nju.edu.cn
+last_name: Dong
+email: 18216827601@163.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Know Thyself.
+  欢迎访问我的个人网站，这里记录了我的学习笔记和项目经验。
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
+keywords: jekyll, 个人网站, 学习笔记, 项目作品  # add your own keywords or leave empty
 
-lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
+lang: zh # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://JinhongDong.github.io # the base hostname & protocol for your site
@@ -70,30 +70,30 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: chengjun # your GitHub user name
+github_username: JinhongDong # your GitHub user name
 gitlab_username: # your GitLab user name
-twitter_username: ChengJunWang # your Twitter handle
+twitter_username: JinhongDong # your Twitter handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 linkedin_username: # your LinkedIn user name
 telegram_username: # your Telegram user name
-scholar_userid: nNdt_G8AAAAJ # your Google Scholar ID
+scholar_userid: # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
-orcid_id: 0000-0002-9507-2888 # your ORCID ID
+orcid_id: # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
 lattes_id: # your ID on Lattes (Brazilian Lattes CV)
-osf_id: 2swnx # your OSF ID
-research_gate_profile: Cheng_Jun_Wang # your profile on ResearchGate
+osf_id: # your OSF ID
+research_gate_profile: # your profile on ResearchGate
 scopus_id: # your profile on Scopus
 blogger_url: # your blogger URL
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
 wikipedia_id: # your wikipedia id (Case sensitive)
 dblp_url: # your DBLP profile url
-stackoverflow_id: 912429 # your stackoverflow id
-kaggle_id: chengjun # your kaggle id
+stackoverflow_id: # your stackoverflow id
+kaggle_id: JinhongDong# your kaggle id
 lastfm_id: # your lastfm id
 spotify_id: # your spotify id
 pinterest_id: # your pinterest id
@@ -102,10 +102,10 @@ instagram_id: # your instagram id
 facebook_id: # your facebook id
 youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 discord_id: # your discord id (18-digit unique numerical identifier)
-zotero_username: wangchj2020 # your zotero username
+zotero_username: # your zotero username
 
 contact_note: >
-  Know Thyself.
+  欢迎联系我！
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -121,9 +121,9 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_nav_title: Blog # your blog must have a title for it to be displayed in the nav bar
-blog_description: Building up my personal center of calculation. 
+blog_name: 我的博客 # blog_name will be displayed in your blog page
+blog_nav_title: 博客 # your blog must have a title for it to be displayed in the nav bar
+blog_description: 这里记录了我的学习笔记和思考。 
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -138,20 +138,20 @@ related_blog_posts:
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out
 # the information below.
 giscus:
-  repo: alshedivat/al-folio      # <your-github-user-name>/<your-github-repo-name>
-  repo_id: MDEwOlJlcG9zaXRvcnk2MDAyNDM2NQ==
+  repo: JinhongDong/JinhongDong.github.io      # <your-github-user-name>/<your-github-repo-name>
+  repo_id: 
   category: Comments             # name of the category under which discussions will be created
-  category_id: DIC_kwDOA5PmLc4CTBt6
+  category_id: 
   mapping: title                 # identify discussions by post title
   strict: 1                      # use strict identification mode
   reactions_enabled: 1           # enable (1) or disable (0) emoji reactions
   input_position: bottom         # whether to display input form below (bottom) or above (top) the comments
   theme: preferred_color_scheme  # name of the color scheme (preferred works well with al-folio light/dark mode)
   emit_metadata: 0
-  lang: en
+  lang: zh
 
 # Disqus comments (DEPRECATED)
-disqus_shortname: al-folio # put your disqus shortname
+disqus_shortname: # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
@@ -159,7 +159,7 @@ disqus_shortname: al-folio # put your disqus shortname
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
   - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
+    rss_url: 
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -272,11 +272,11 @@ display_categories: ['blockquotes'] # these categories will be displayed on the 
 
 scholar:
 
-  last_name: [Wang]
-  first_name: [Cheng-Jun]
+  last_name: [Dong]
+  first_name: [Jinhong]
 
   style: apa
-  locale: en
+  locale: zh
 
   source: /_bibliography/
   bibliography: papers.bib
