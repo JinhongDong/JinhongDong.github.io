@@ -2,7 +2,7 @@
 layout: about
 title: English|JinhongDong
 permalink: /
-subtitle: Big Moon Changing the World
+subtitle: /
 profile:
   align: right
   image: avatar.jpg
@@ -13,6 +13,10 @@ latest_posts: false  # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
+
+# Jinhong Dong's personal website
+
+Big Moon Changing the World
 
 # Hello! I'm Jinhong Dong
 
