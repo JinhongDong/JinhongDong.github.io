@@ -100,7 +100,7 @@ discord_id: # 留空
 zotero_username: # 留空
 
 contact_note: >
-  欢迎联系我！
+  # 欢迎联系我！
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
