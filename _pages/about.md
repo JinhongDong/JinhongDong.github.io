@@ -1,6 +1,6 @@
 ---
 layout: about
-title: About
+title: English|JinhongDong
 permalink: /
 subtitle: Big Moon Changing the World
 profile:
