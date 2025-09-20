@@ -20,7 +20,7 @@ I am a 2025 Master's student in Journalism and Communication at Nanjing Universi
 
 ## Educational Background
 
-- Nanjing University, Master of Journalism and Communication, Computational Communication方向 (2025-2028, in progress)
+- Nanjing University, Master of Journalism and Communication, Computational Communication (2025-2028, in progress)
 - Nanjing Medical University, Bachelor of Engineering, Intelligent Medical Engineering (2020-2024)
 - Relevant Courses: Introduction to Computational Communication, Data Journalism, Python Data Analysis, Social Network Analysis, etc.
 
