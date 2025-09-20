@@ -2,7 +2,6 @@
 layout: about
 title: English|JinhongDong
 permalink: /
-subtitle: /
 profile:
   align: right
   image: avatar.jpg
@@ -18,7 +17,7 @@ social: true  # includes social icons at the bottom of the page
 
 Big Moon Changing the World
 
-# Hello! I'm Jinhong Dong
+## Hello! I'm Jinhong Dong
 
 I am a 2025 Master's student in Journalism and Communication at Nanjing University, specializing in computational communication. I graduated from Nanjing Medical University with a bachelor's degree in Intelligent Medical Engineering, which gives me an interdisciplinary background combining medicine and engineering. I am enthusiastic about data science and computational social science, dedicated to exploring how technology can empower communication research, especially through data mining and machine learning methods to analyze human communication behavior and social phenomena.
 
