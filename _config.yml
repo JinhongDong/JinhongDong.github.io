@@ -116,10 +116,10 @@ bing_site_verification:  # 留空
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # 保持原样
-blog_nav_title: Blog # 保持原样
-blog_description: 这里记录了我的学习笔记和思考。 # 修改了描述
-permalink: /blog/:year/:title/
+#blog_name: al-folio # 保持原样
+#blog_nav_title: Blog # 保持原样
+#blog_description: 这里记录了我的学习笔记和思考。 # 修改了描述
+#permalink: /blog/:year/:title/
 
 # 分页
 pagination:
