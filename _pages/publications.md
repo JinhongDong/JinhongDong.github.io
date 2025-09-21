@@ -7,6 +7,8 @@ nav: true
 nav_order: 3
 ---
 
+While I haven't published any academic papers yet, I'm actively engaged in the following research projects and continuously working to contribute meaningful insights to the field.
+
 ### Current Research Focus
 
 I am actively exploring the intersection of computational methods and communication studies, with particular interest in computational journalism and data-driven storytelling. While I haven't published academic papers yet, I'm deeply engaged in developing meaningful projects that bridge data analysis and narrative construction.
