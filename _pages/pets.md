@@ -4,7 +4,7 @@ title: Pets
 permalink: /pets/
 profile:
   align: middle
-  image: pets3.PNG
+  image: pets.jpg
   image_circular: false # crops the image to make it circular
   address: 
 news: false  # includes a list of news items
