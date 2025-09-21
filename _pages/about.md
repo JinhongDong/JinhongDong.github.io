@@ -1,6 +1,6 @@
 ---
 layout: about
-title: English|JinhongDong
+title: JinhongDong
 permalink: /
 profile:
   align: right
