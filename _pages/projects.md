@@ -63,8 +63,8 @@ horizontal: false
   </div>
 </div>
 
-<!-- 研究生项目（暂无） - 修复显示问题 -->
-<div style="clear: both; margin-top: 3rem;">
+<!-- 研究生项目（暂无） -->
+<div class="graduate-section">
   <h2 class="category">Graduate Projects</h2>
   <div class="empty-projects text-center py-4">
     <h4>No Current Projects</h4>
@@ -120,5 +120,20 @@ horizontal: false
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 1.5rem;
+}
+
+/* 新增样式确保研究生部分正确显示 */
+.graduate-section {
+  clear: both;
+  margin-top: 3rem;
+  position: relative;
+  z-index: 10;
+}
+
+/* 确保网格容器不会影响后续内容 */
+.grid::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 </style>
