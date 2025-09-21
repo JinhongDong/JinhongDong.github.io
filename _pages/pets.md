@@ -16,8 +16,10 @@ nav_order: 2
   <img src="/assets/img/pets3.PNG" alt="Pet family banner" class="banner-image">
 </div>
 
+<div class="welcome-text">
 Welcome to my world of pets! Here live two lovely little companions who bring endless joy to my life.
-## 
+</div>
+ 
 
 <div class="row">
   <div class="col-md-8">
@@ -77,4 +79,13 @@ Welcome to my world of pets! Here live two lovely little companions who bring en
   display: block; /* Block element */
   margin: 0 auto; /* Horizontal centering */
 }
+
+/* 新增的欢迎文本样式 */
+.welcome-text {
+  line-height: 1.6; /* 增加行高 */
+  font-size: 1.1em; /* 稍微增大字体 */
+  margin-bottom: 25px; /* 增加底部间距 */
+  /* text-align: center;  居中文本 */
+}
+  
 </style>
