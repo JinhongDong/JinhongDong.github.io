@@ -7,7 +7,7 @@ latest_posts: false
 selected_papers: false
 social: false
 nav: true
-nav_order: 2
+nav_order: 4
 ---
 
 # JinhongDong's Animal Friends
