@@ -19,6 +19,7 @@ I am actively exploring the intersection of computational methods and communicat
 - Open data practices in journalistic research
 
 
+
 I strongly believe in open science and transparent research practices. I regularly share my project progress, code, and methodologies on GitHub and OSF. My work focuses on developing techniques that can help uncover meaningful stories hidden in data and understand the emotional undertones of public discourse.
 
 <br>
