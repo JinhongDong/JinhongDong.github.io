@@ -63,15 +63,17 @@ horizontal: false
   </div>
 </div>
 
-<!-- 研究生项目（暂无） -->
-<h2 class="category mt-5">Graduate Projects</h2>
-<div class="empty-projects text-center py-4">
-  <h4>No Current Projects</h4>
-  <p class="lead">I'm actively exploring new research directions in computational communication and will update this section soon!</p>
-  <div class="mt-3">
-    <i class="fas fa-lightbulb fa-2x text-warning"></i>
+<!-- 研究生项目（暂无） - 修复显示问题 -->
+<div style="clear: both; margin-top: 3rem;">
+  <h2 class="category">Graduate Projects</h2>
+  <div class="empty-projects text-center py-4">
+    <h4>No Current Projects</h4>
+    <p class="lead">I'm actively exploring new research directions in computational communication and will update this section soon!</p>
+    <div class="mt-3">
+      <i class="fas fa-lightbulb fa-2x text-warning"></i>
+    </div>
+    <p class="mt-2">Check back later for updates on my graduate research projects.</p>
   </div>
-  <p class="mt-2">Check back later for updates on my graduate research projects.</p>
 </div>
 
 </div>
@@ -113,5 +115,10 @@ horizontal: false
   border-bottom: 2px solid #6c757d;
   padding-bottom: 0.5rem;
   margin-bottom: 1.5rem;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
 }
 </style>
