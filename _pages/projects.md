@@ -20,7 +20,7 @@ horizontal: false
   <div class="card project-card">
     <div class="card-body">
       <h3 class="card-title">Heart Failure Prediction using Machine Learning</h3>
-      <div class="project-year">2022</div>
+      <div class="project-date">June 2022</div>
       <div class="card-text">
         <p>A machine learning project focused on analyzing and predicting heart failure risks using patient clinical data.</p>
         <ul>
@@ -42,7 +42,7 @@ horizontal: false
   <div class="card project-card">
     <div class="card-body">
       <h3 class="card-title">Medical Named Entity Recognition System</h3>
-      <div class="project-year">2024</div>
+      <div class="project-date">April 2024</div>
       <div class="card-text">
         <p>Graduation project: Designed and developed a NER system for medical texts using open-source LLMs.</p>
         <ul>
@@ -50,7 +50,7 @@ horizontal: false
           <li>Developed a comprehensive system for identifying medical entities in text</li>
           <li>Implemented visualization interface for results display</li>
           <li>Added functionality for result export and manual correction</li>
-          <li>Achieved 88% F1-score on medical text recognition tasks</li>
+          <li>Achieved 93% F1-score on medical text recognition tasks</li>
         </ul>
       </div>
       <div class="project-meta">
@@ -86,11 +86,12 @@ horizontal: false
   color: #2c3e50;
   font-weight: 600;
 }
-.project-year {
+.project-date {
   color: #6c757d;
   font-size: 0.9rem;
   font-weight: 500;
   margin-bottom: 0.5rem;
+  font-style: italic;
 }
 .project-meta {
   margin-top: 1rem;
