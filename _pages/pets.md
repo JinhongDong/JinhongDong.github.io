@@ -16,8 +16,8 @@ nav_order: 2
   <img src="/assets/img/pets3.PNG" alt="Pet family banner" class="banner-image">
 </div>
 
-## Welcome to my world of pets! Here live two lovely little companions who bring endless joy to my life.
-
+Welcome to my world of pets! Here live two lovely little companions who bring endless joy to my life.
+## 
 
 <div class="row">
   <div class="col-md-8">
@@ -72,7 +72,7 @@ nav_order: 2
 }
 
 .banner-image {
-  max-width: 50%; /* Width is 25% of original size */
+  max-width: 75%; /* Width is 25% of original size */
   height: auto; /* Height adjusts automatically */
   display: block; /* Block element */
   margin: 0 auto; /* Horizontal centering */
