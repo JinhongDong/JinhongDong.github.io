@@ -14,7 +14,7 @@ nav_order: 2
 
 欢迎来到我的宠物世界！这里住着两位可爱的小伙伴，它们给我的生活带来了无尽的欢乐。
 
-![宠物家庭横幅](/assets/img/pets3.png)
+![宠物家庭横幅](/assets/img/pets3.PNG)
 
 <div class="row">
   <div class="col-md-8">
