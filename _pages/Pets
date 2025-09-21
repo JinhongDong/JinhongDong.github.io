@@ -2,7 +2,7 @@
 ---
 layout: about
 title: Pets
-permalink: /
+permalink: /pets/
 nav: true
 nav_order: 3
 profile:
