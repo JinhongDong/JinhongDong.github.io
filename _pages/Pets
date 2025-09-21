@@ -3,6 +3,8 @@
 layout: about
 title: Pets
 permalink: /
+nav: true
+nav_order: 2
 profile:
   align: right
   image: avatar.jpg
