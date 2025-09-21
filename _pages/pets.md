@@ -3,8 +3,6 @@
 layout: about
 title: Pets
 permalink: /pets/
-nav: true
-nav_order: 3
 profile:
   align: right
   image: avatar.jpg
@@ -14,6 +12,8 @@ news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
+nav: true
+nav_order: 2
 ---
 
 # Jinhong Dong's personal website
