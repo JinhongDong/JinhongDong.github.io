@@ -14,7 +14,9 @@ nav_order: 2
 
 欢迎来到我的宠物世界！这里住着两位可爱的小伙伴，它们给我的生活带来了无尽的欢乐。
 
-![宠物家庭横幅](/assets/img/pets3.PNG)
+<div class="banner-container">
+  <img src="/assets/img/pets3.PNG" alt="宠物家庭横幅" class="banner-image">
+</div>
 
 <div class="row">
   <div class="col-md-8">
@@ -50,8 +52,6 @@ nav_order: 2
   </div>
 </div>
 
-
-
 <style>
 .img-fluid {
   max-width: 100%;
@@ -62,5 +62,18 @@ nav_order: 2
 }
 .mt-5 {
   margin-top: 3rem !important;
+}
+
+/* 新增的横幅图片样式 */
+.banner-container {
+  text-align: center; /* 居中显示 */
+  margin: 20px 0; /* 上下边距 */
+}
+
+.banner-image {
+  max-width: 50%; /* 宽度为原始尺寸的一半 */
+  height: auto; /* 高度自动调整 */
+  display: block; /* 块级元素 */
+  margin: 0 auto; /* 水平居中 */
 }
 </style>
