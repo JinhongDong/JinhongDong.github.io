@@ -205,6 +205,7 @@ keep_files:
   - .git
 
 # 插件 - 保持原始设置
+# jekyll-jupyter-notebook
 plugins:
   - jekyll-archives
   - jekyll-diagrams
@@ -212,7 +213,7 @@ plugins:
   - jekyll-feed
   - jekyll-get-json
   - jekyll-imagemagick
-  - jekyll-jupyter-notebook
+  
   - jekyll-link-attributes
   - jekyll-minifier
   - jekyll-paginate-v2
