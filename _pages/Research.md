@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /publications/
+permalink: /Research/
 title: Research
 description: Discovering stories through data, understanding emotions through computation
 nav: true
