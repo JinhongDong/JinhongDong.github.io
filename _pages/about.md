@@ -1,7 +1,7 @@
 ---
 layout: about
 title: JinhongDong
-permalink: /JinhongDong
+permalink: /English_JinhongDong
 profile:
   align: right
   image: avatar.jpg
