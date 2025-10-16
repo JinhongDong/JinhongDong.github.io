@@ -3,32 +3,32 @@
  ******************************************************************************/
 
 :root {
-  --global-bg-color: #{$white-color};
+  --global-bg-color: #e3f2fd;  // 浅蓝色背景
   --global-code-bg-color: #{$code-bg-color-light};
   --global-text-color: #{$black-color};
   --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$purple-color};
-  --global-hover-color: #{$purple-color};
+  --global-theme-color: #1976d2;  // 主蓝色主题色
+  --global-hover-color: #1565c0;  // 深蓝色悬停色
   --global-hover-text-color: #{$white-color};
-  --global-footer-bg-color: #{$grey-color-dark};
-  --global-footer-text-color: #{$grey-color-light};
+  --global-footer-bg-color: #1976d2;  // 蓝色页脚背景
+  --global-footer-text-color: #{$white-color};
   --global-footer-link-color: #{$white-color};
   --global-distill-app-color: #{$grey-color};
-  --global-divider-color: rgba(0,0,0,.1);
+  --global-divider-color: rgba(25, 118, 210, 0.1);  // 蓝色分割线
   --global-card-bg-color: #{$white-color};
 
-  --global-tip-block: #42b983;
-  --global-tip-block-bg: #e2f5ec;
-  --global-tip-block-text: #215d42;
-  --global-tip-block-title: #359469;
-  --global-warning-block: #e7c000;
-  --global-warning-block-bg: #fff8d8;
-  --global-warning-block-text: #6b5900;
-  --global-warning-block-title: #b29400;
-  --global-danger-block: #c00;
-  --global-danger-block-bg: #ffe0e0;
-  --global-danger-block-text: #600;
-  --global-danger-block-title: #c00;
+  --global-tip-block: #1976d2;  // 蓝色提示块
+  --global-tip-block-bg: #e3f2fd;
+  --global-tip-block-text: #0d47a1;
+  --global-tip-block-title: #1565c0;
+  --global-warning-block: #ff9800;
+  --global-warning-block-bg: #fff3e0;
+  --global-warning-block-text: #e65100;
+  --global-warning-block-title: #f57c00;
+  --global-danger-block: #f44336;
+  --global-danger-block-bg: #ffebee;
+  --global-danger-block-text: #b71c1c;
+  --global-danger-block-title: #d32f2f;
 
   .fa-sun {
     display : none;
@@ -48,32 +48,32 @@
 }
 
 html[data-theme='dark'] {
-  --global-bg-color: #{$grey-color-dark};
-  --global-code-bg-color: #{$code-bg-color-dark};
+  --global-bg-color: #0d47a1;  // 深蓝色背景
+  --global-code-bg-color: #1a237e;  // 深蓝色代码背景
   --global-text-color: #{$grey-color-light};
   --global-text-color-light: #{$grey-color-light};
-  --global-theme-color: #{$cyan-color};
-  --global-hover-color: #{$cyan-color};
+  --global-theme-color: #90caf9;  // 浅蓝色主题色（深色模式）
+  --global-hover-color: #64b5f6;  // 中等蓝色悬停色
   --global-hover-text-color: #{$white-color};
-  --global-footer-bg-color: #{$grey-color-light};
-  --global-footer-text-color: #{$grey-color-dark};
-  --global-footer-link-color: #{$black-color};
+  --global-footer-bg-color: #1565c0;  // 深蓝色页脚背景
+  --global-footer-text-color: #{$white-color};
+  --global-footer-link-color: #90caf9;
   --global-distill-app-color: #{$grey-color-light};
-  --global-divider-color: #424246;
-  --global-card-bg-color: #{$grey-900};
+  --global-divider-color: #1976d2;  // 蓝色分割线
+  --global-card-bg-color: #1a237e;  // 深蓝色卡片背景
 
-  --global-tip-block: #42b983;
-  --global-tip-block-bg: #e2f5ec;
-  --global-tip-block-text: #215d42;
-  --global-tip-block-title: #359469;
-  --global-warning-block: #e7c000;
-  --global-warning-block-bg: #fff8d8;
-  --global-warning-block-text: #6b5900;
-  --global-warning-block-title: #b29400;
-  --global-danger-block: #c00;
-  --global-danger-block-bg: #ffe0e0;
-  --global-danger-block-text: #600;
-  --global-danger-block-title: #c00;
+  --global-tip-block: #90caf9;
+  --global-tip-block-bg: #0d47a1;
+  --global-tip-block-text: #e3f2fd;
+  --global-tip-block-title: #64b5f6;
+  --global-warning-block: #ffb74d;
+  --global-warning-block-bg: #5d4037;
+  --global-warning-block-text: #ffccbc;
+  --global-warning-block-title: #ff9800;
+  --global-danger-block: #ef5350;
+  --global-danger-block-bg: #b71c1c;
+  --global-danger-block-text: #ffebee;
+  --global-danger-block-title: #f44336;
 
   .fa-sun {
     padding-left: 10px;
