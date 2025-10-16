@@ -69,7 +69,7 @@ horizontal: false
   <div class="card project-card">
     <div class="card-body">
       <h3 class="card-title">网络视听内容创意方案策划</h3>
-      <div class="project-date">2023年12月</div>
+      <div class="project-date">2025年10月</div>
       <div class="card-text">
         <p>设计融合AI与旅游的综艺节目《跟着AI去旅游》，完成从创意到落地的全流程策划。</p>
         <ul>
