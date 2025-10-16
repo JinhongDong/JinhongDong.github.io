@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 能力展示
+title: 技能
 permalink: /ability/
 description: 我的技能与专业能力
 nav: true
