@@ -1,5 +1,5 @@
 /*******************************************************************************
- * 简历风格主题 - 增强版（带导航高亮）
+ * 简历风格主题
  ******************************************************************************/
 
 :root {
@@ -18,8 +18,6 @@
   --global-divider-color: rgba(236, 240, 241, 0.8);
   --global-card-bg-color: #ffffff;
   --global-border-color: #ecf0f1;
-  --global-active-color: #2c3e50;  /* 当前页面高亮色 */
-  --global-active-bg: #f5f7fa;    /* 当前页面背景色 */
   
   /* 装饰效果变量 */
   --global-accent-color: #3498db;  /* 仅用作点缀色 */
@@ -67,164 +65,11 @@ body {
   min-height: 100vh;
 }
 
-/* 2. 导航栏样式 - 增强 */
-.navbar {
-  background-color: var(--global-bg-color);
-  border-bottom: 1px solid var(--global-border-color);
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
-  padding: 1rem 0;
-  position: relative;
-  z-index: 100;
-}
-
-/* 导航栏装饰线 */
-.navbar::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 1px;
-  background: linear-gradient(90deg, 
-    transparent 0%, 
-    var(--global-border-color) 20%,
-    var(--global-border-color) 80%,
-    transparent 100%);
-}
-
-/* 导航菜单样式 */
-.navbar-nav {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-}
-
-.nav-item {
-  position: relative;
-}
-
-.nav-link {
-  color: var(--global-text-color);
-  font-weight: 500;
-  padding: 0.5rem 1rem;
-  text-decoration: none;
-  transition: all 0.3s ease;
-  border-radius: 4px;
-  position: relative;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-/* 当前页面高亮效果 */
-.nav-item.active .nav-link {
-  background-color: var(--global-active-bg);
-  color: var(--global-active-color);
-  font-weight: 600;
-}
-
-/* 当前页面指示器 */
-.nav-item.active .nav-link::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 3px;
-  background-color: var(--global-active-color);
-  border-radius: 0 2px 2px 0;
-  animation: slideIn 0.3s ease-out;
-}
-
-/* 悬停效果 */
-.nav-link:hover:not(.active) {
-  background-color: rgba(44, 62, 80, 0.05);
-  color: var(--global-hover-color);
-}
-
-/* 移动端导航样式 */
-@media (max-width: 768px) {
-  .navbar-nav {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 0.5rem;
-  }
-  
-  .nav-item.active .nav-link::before {
-    width: 100%;
-    height: 2px;
-    top: auto;
-    bottom: 0;
-    left: 0;
-    border-radius: 2px 2px 0 0;
-  }
-}
-
-/* 3. 面包屑导航样式 */
-.breadcrumb {
-  background: var(--global-bg-color);
-  border: 1px solid var(--global-border-color);
-  border-radius: 4px;
-  padding: 0.75rem 1rem;
-  margin: 1rem 0 2rem 0;
-  font-size: 0.9rem;
-}
-
-.breadcrumb-item.active {
-  color: var(--global-active-color);
-  font-weight: 600;
-  position: relative;
-}
-
-.breadcrumb-item.active::after {
-  content: '';
-  position: absolute;
-  bottom: -2px;
-  left: 0;
-  width: 100%;
-  height: 1px;
-  background: linear-gradient(90deg, 
-    var(--global-active-color) 0%, 
-    transparent 100%);
-}
-
-/* 4. 页面标题当前页面指示 */
-.page-title {
-  position: relative;
-  padding-bottom: 1rem;
-  margin-bottom: 2rem;
-}
-
-.page-title::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100px;
-  height: 3px;
-  background-color: var(--global-active-color);
-  border-radius: 3px;
-}
-
-/* 5. 侧边栏当前页面高亮 */
-.sidebar-nav .nav-item.active {
-  background-color: var(--global-active-bg);
-  border-left: 3px solid var(--global-active-color);
-  margin-left: -1rem;
-  padding-left: calc(1rem - 3px);
-}
-
-.sidebar-nav .nav-item.active .nav-link {
-  color: var(--global-active-color);
-  font-weight: 600;
-}
-
-/* 6. 简历纸张效果 */
+/* 2. 简历纸张效果 */
 main {
   background-color: var(--global-bg-color);
   position: relative;
   z-index: 1;
-  min-height: calc(100vh - 200px);
 }
 
 /* 左侧装饰竖线（简历风格） */
@@ -247,7 +92,7 @@ main {
   }
 }
 
-/* 7. 标题样式 - 简历标题风格 */
+/* 3. 标题样式 - 简历标题风格 */
 h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   letter-spacing: -0.025em;
@@ -278,7 +123,7 @@ h2::before {
   background-color: var(--global-text-color);
 }
 
-/* 8. 卡片样式 - 简历卡片 */
+/* 4. 卡片样式 - 简历卡片 */
 .card, .post-card, .project-card, article {
   background: var(--global-card-bg-color);
   border: 1px solid var(--global-border-color);
@@ -311,7 +156,7 @@ h2::before {
   border-left-color: var(--global-hover-color);
 }
 
-/* 9. 时间线列表样式 */
+/* 5. 列表样式 - 时间线效果 */
 .timeline-list {
   list-style: none;
   padding-left: 1.5rem;
@@ -351,7 +196,7 @@ h2::before {
   display: none;
 }
 
-/* 10. 链接样式 */
+/* 6. 链接样式 */
 a {
   color: var(--global-text-color);
   text-decoration: none;
@@ -379,7 +224,33 @@ a:not(.btn):hover::after {
   width: 100%;
 }
 
-/* 11. 页脚样式 */
+/* 7. 代码块样式 */
+pre, code {
+  background-color: var(--global-code-bg-color);
+  border: 1px solid var(--global-border-color);
+  border-left: 3px solid var(--global-text-color-light);
+  border-radius: 0;
+}
+
+/* 8. 按钮样式 */
+.btn {
+  border: 2px solid var(--global-text-color);
+  background: transparent;
+  color: var(--global-text-color);
+  border-radius: 0;
+  padding: 0.5rem 1.5rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: var(--global-text-color);
+  color: var(--global-bg-color);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* 9. 页脚样式 */
 .footer {
   background-color: var(--global-footer-bg-color);
   border-top: 1px solid var(--global-border-color);
@@ -402,19 +273,66 @@ a:not(.btn):hover::after {
     transparent 100%);
 }
 
-/* 12. 当前页面高亮动画 */
-@keyframes slideIn {
-  from {
-    opacity: 0;
-    transform: translateX(-10px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
+/* 10. 技能条样式（简历专用） */
+.skill-bar {
+  background-color: var(--global-border-color);
+  height: 6px;
+  border-radius: 3px;
+  margin: 0.5rem 0 1rem 0;
+  overflow: hidden;
 }
 
-/* 13. 响应式调整 */
+.skill-level {
+  height: 100%;
+  background: linear-gradient(90deg, 
+    var(--global-text-color-light), 
+    var(--global-text-color));
+  border-radius: 3px;
+  transition: width 1.5s ease-in-out;
+}
+
+/* 11. 分割线装饰 */
+hr {
+  border: none;
+  height: 1px;
+  background: linear-gradient(90deg, 
+    transparent 0%, 
+    var(--global-border-color) 50%, 
+    transparent 100%);
+  margin: 2rem 0;
+}
+
+/* 12. 导航栏样式 */
+.navbar {
+  background-color: var(--global-bg-color);
+  border-bottom: 1px solid var(--global-border-color);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+/* 13. 页头装饰线条 */
+.page-header {
+  position: relative;
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+}
+
+.page-header::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: repeating-linear-gradient(
+    90deg,
+    transparent,
+    transparent 2px,
+    var(--global-border-color) 2px,
+    var(--global-border-color) 4px
+  );
+}
+
+/* 响应式调整 */
 @media (max-width: 768px) {
   body::before {
     display: none;
@@ -431,32 +349,21 @@ a:not(.btn):hover::after {
   h2::before {
     width: 3px;
   }
-  
-  .navbar-nav {
-    padding: 1rem 0;
-  }
 }
 
-/* 14. 深色模式适配 */
-html[data-theme='dark'] {
-  --global-bg-color: #1a1a1a;
-  --global-code-bg-color: #2d2d2d;
-  --global-text-color: #e0e0e0;
-  --global-text-color-light: #aaaaaa;
-  --global-theme-color: #e0e0e0;
-  --global-hover-color: #ffffff;
-  --global-hover-text-color: #2c3e50;
-  --global-footer-bg-color: #0a0a0a;
-  --global-footer-text-color: #aaaaaa;
-  --global-footer-link-color: #e0e0e0;
-  --global-divider-color: rgba(255, 255, 255, 0.1);
-  --global-card-bg-color: #252525;
-  --global-border-color: #333333;
-  --global-active-color: #ffffff;
-  --global-active-bg: rgba(255, 255, 255, 0.1);
+/* 打印优化 */
+@media print {
+  body {
+    background: white !important;
+    background-image: none !important;
+  }
   
-  /* 深色模式下的背景网格 */
-  background-image: 
-    linear-gradient(to right, rgba(51, 51, 51, 0.3) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(51, 51, 51, 0.3) 1px, transparent 1px);
+  .card, .post-card {
+    box-shadow: none !important;
+    border: 1px solid #ddd !important;
+  }
+  
+  .btn {
+    display: none !important;
+  }
 }
