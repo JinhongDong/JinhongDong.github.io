@@ -3,7 +3,7 @@ layout: page
 title: 技能
 permalink: /ability/
 description: 我的技能与专业能力
-nav: true
+nav: false
 nav_order: 5
 display_categories: [技术能力, 创作能力, 其他能力]
 horizontal: false
