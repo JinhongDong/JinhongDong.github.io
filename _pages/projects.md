@@ -79,8 +79,34 @@ horizontal: false
 
 <!-- 本科项目 -->
 <h2 class="category">本科项目</h2>
-  
-<!-- 项目1: 心力衰竭预测 -->
+
+<!-- 项目1: 医学NER系统 -->
+<div class="card project-card">
+  <div class="card-body">
+    <h3 class="card-title">基于开源大语言模型的中文医学命名实体识别系统</h3>
+    <div class="project-date">2024年5月</div>
+    <div class="card-text">
+      <p><strong>毕业设计<strong>：基于开源大语言模型的中文医学文本命名实体识别系统设计与开发。</p>
+      <ul>
+        <li>申请并获得测试所用的中文医学文本</li>
+        <li>下载并部署两个开源大模型<strong>ChatGLM</strong>和<strong>智析</strong></li>
+        <li>进行需求分析和系统整体设计，撰写系统开发需求文档</li>
+        <li>使用<strong>Python语言、VSCode平台</strong>进行系统的详细代码实现</li>
+        <li>设计并实现的功能包括实体识别、选择不同大模型、自定义识别类型、手动纠错、可视化呈现、下载并保存</li>
+        <li>撰写系统使用文档</li>
+        <li>进行系统测试并整理成毕业论文</li>
+      </ul>
+    </div>
+    <div class="project-meta">
+      <span class="badge bg-primary">NER</span>
+      <span class="badge bg-secondary">开源大语言模型</span>
+      <span class="badge bg-info">中文医学文本</span>
+      <span class="badge bg-success">Web开发</span>
+    </div>
+  </div>
+</div>
+
+<!-- 项目2: 心力衰竭预测 -->
 <div class="card project-card">
   <div class="card-body">
     <h3 class="card-title">基于机器学习的心力衰竭患者死亡率预测</h3>
@@ -102,31 +128,7 @@ horizontal: false
   </div>
 </div>
 
-<!-- 项目2: 医学NER系统 -->
-<div class="card project-card">
-  <div class="card-body">
-    <h3 class="card-title">基于开源大语言模型的中文医学命名实体识别系统</h3>
-    <div class="project-date">2024年4月</div>
-    <div class="card-text">
-      <p><strong>毕业设计<strong>：基于开源大语言模型的中文医学文本命名实体识别系统设计与开发。</p>
-      <ul>
-        <li>申请并获得测试所用的中文医学文本</li>
-        <li>下载并部署两个开源大模型<strong>ChatGLM</strong>和<strong>智析</strong></li>
-        <li>进行需求分析和系统整体设计，撰写系统开发需求文档</li>
-        <li>使用<strong>Python语言、VSCode平台</strong>进行系统的详细代码实现</li>
-        <li>设计并实现的功能包括实体识别、选择不同大模型、自定义识别类型、手动纠错、可视化呈现、下载并保存</li>
-        <li>撰写系统使用文档</li>
-        <li>进行系统测试并整理成毕业论文</li>
-      </ul>
-    </div>
-    <div class="project-meta">
-      <span class="badge bg-primary">NER</span>
-      <span class="badge bg-secondary">开源大语言模型</span>
-      <span class="badge bg-info">中文医学文本</span>
-      <span class="badge bg-success">Web开发</span>
-    </div>
-  </div>
-</div>
+
 
 <!-- 项目占位提示 - 移到本科项目之后 -->
 <div class="more-projects text-center py-4">
