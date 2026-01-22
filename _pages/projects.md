@@ -80,11 +80,11 @@ horizontal: false
 <!-- 本科项目 -->
 <h2 class="category">本科项目</h2>
 
-<!-- 项目1: 医学NER系统（2024年4月）- 现在放在前面 -->
+<!-- 项目1: 医学NER系统 -->
 <div class="card project-card">
   <div class="card-body">
     <h3 class="card-title">基于开源大语言模型的中文医学命名实体识别系统</h3>
-    <div class="project-date">2024年4月</div>
+    <div class="project-date">2024年5月</div>
     <div class="card-text">
       <p><strong>毕业设计</strong>：基于开源大语言模型的中文医学文本命名实体识别系统设计与开发。</p>
       <ul>
@@ -106,7 +106,7 @@ horizontal: false
   </div>
 </div>
 
-<!-- 项目2: 心力衰竭预测（2022年6月）- 现在放在后面 -->
+<!-- 项目2: 心力衰竭预测 -->
 <div class="card project-card">
   <div class="card-body">
     <h3 class="card-title">基于机器学习的心力衰竭患者死亡率预测</h3>
@@ -127,6 +127,8 @@ horizontal: false
     </div>
   </div>
 </div>
+
+
 
 <!-- 项目占位提示 - 移到本科项目之后 -->
 <div class="more-projects text-center py-4">
