@@ -1,71 +1,140 @@
 /*******************************************************************************
- * Themes
+ * 简历风格主题
  ******************************************************************************/
 
 :root {
-  --global-bg-color: #1a1a1a;  // 深灰背景
-  --global-bg-pattern: linear-gradient(90deg, #1a1a1a 21px, transparent 1%) center, 
-                       linear-gradient(#1a1a1a 21px, transparent 1%) center, #2a2a2a;
-  --global-bg-size: 22px 22px;
-  --global-code-bg-color: #2d2d2d;
-  --global-text-color: #e0e0e0;
-  --global-text-color-light: #aaaaaa;
-  --global-theme-color: #d4af37;  // 金色主题色
-  --global-hover-color: #b8941f;
+  /* 主色调 - 黑白灰专业配色 */
+  --global-bg-color: #ffffff;
+  --global-code-bg-color: #f8f9fa;
+  --global-text-color: #2c3e50;
+  --global-text-color-light: #7f8c8d;
+  --global-theme-color: #2c3e50;  /* 深灰色主题色 */
+  --global-hover-color: #34495e;
   --global-hover-text-color: #ffffff;
-  --global-footer-bg-color: #0a0a0a;
-  --global-footer-text-color: #e0e0e0;
-  --global-footer-link-color: #d4af37;
-  --global-distill-app-color: #aaaaaa;
-  --global-divider-color: rgba(212, 175, 55, 0.3);  // 金色半透明分割线
-  --global-card-bg-color: #252525;
-  --global-border-style: 1px solid rgba(212, 175, 55, 0.2);
-  --global-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3), 
-                       0 1px 3px rgba(0, 0, 0, 0.2);
+  --global-footer-bg-color: #f8f9fa;
+  --global-footer-text-color: #2c3e50;
+  --global-footer-link-color: #2c3e50;
+  --global-distill-app-color: #7f8c8d;
+  --global-divider-color: rgba(236, 240, 241, 0.8);
+  --global-card-bg-color: #ffffff;
+  --global-border-color: #ecf0f1;
+  
+  /* 装饰效果变量 */
+  --global-accent-color: #3498db;  /* 仅用作点缀色 */
+  --global-line-width: 2px;
+  --global-grid-size: 20px;
+  
+  /* 功能色块 */
+  --global-tip-block: #2c3e50;
+  --global-tip-block-bg: #f8f9fa;
+  --global-tip-block-text: #2c3e50;
+  --global-tip-block-title: #2c3e50;
+  --global-warning-block: #e67e22;
+  --global-warning-block-bg: #fdf2e9;
+  --global-warning-block-text: #d35400;
+  --global-warning-block-title: #e67e22;
+  --global-danger-block: #e74c3c;
+  --global-danger-block-bg: #fdedec;
+  --global-danger-block-text: #c0392b;
+  --global-danger-block-title: #e74c3c;
 
-  --global-tip-block: #d4af37;
-  --global-tip-block-bg: rgba(212, 175, 55, 0.1);
-  --global-tip-block-text: #f0e6d2;
-  --global-tip-block-title: #d4af37;
-  --global-warning-block: #ff9800;
-  --global-warning-block-bg: rgba(255, 152, 0, 0.1);
-  --global-warning-block-text: #ffe0b2;
-  --global-warning-block-title: #ffb74d;
-  --global-danger-block: #f44336;
-  --global-danger-block-bg: rgba(244, 67, 54, 0.1);
-  --global-danger-block-text: #ffcdd2;
-  --global-danger-block-title: #ef5350;
-
-  .fa-sun {
-    display: none;
-  }
-  .fa-moon {
+  /* 图标切换 */
+  .fa-sun { display: none; }
+  .fa-moon { 
     padding-left: 10px;
     padding-top: 12px;
-    display: block;
+    display: block; 
   }
-
-  .repo-img-light {
-    display: block;
-  }
-  .repo-img-dark {
-    display: none;
-  }
+  .repo-img-light { display: block; }
+  .repo-img-dark { display: none; }
 }
 
-/* 添加全局背景图案 */
+/* ============================================
+   简历风格装饰
+   ============================================ */
+
+/* 1. 背景图案 - 极细网格线 */
 body {
-  background: var(--global-bg-pattern);
-  background-size: var(--global-bg-size);
-  background-attachment: fixed;
+  background-color: var(--global-bg-color);
+  background-image: 
+    linear-gradient(to right, var(--global-border-color) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--global-border-color) 1px, transparent 1px);
+  background-size: var(--global-grid-size) var(--global-grid-size);
+  background-position: center center;
+  position: relative;
+  min-height: 100vh;
 }
 
-/* 添加卡片装饰线 */
-.card, .post-card, article {
+/* 2. 简历纸张效果 */
+main {
+  background-color: var(--global-bg-color);
   position: relative;
-  border: var(--global-border-style);
-  box-shadow: var(--global-box-shadow);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  z-index: 1;
+}
+
+/* 左侧装饰竖线（简历风格） */
+@media (min-width: 768px) {
+  body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 20%;
+    width: 1px;
+    height: 100vh;
+    background: linear-gradient(
+      to bottom,
+      transparent 0%,
+      var(--global-border-color) 10%,
+      var(--global-border-color) 90%,
+      transparent 100%
+    );
+    z-index: 0;
+  }
+}
+
+/* 3. 标题样式 - 简历标题风格 */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  letter-spacing: -0.025em;
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+h1 {
+  color: var(--global-text-color);
+  border-bottom: 3px solid var(--global-text-color);
+  padding-bottom: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  color: var(--global-text-color);
+  position: relative;
+  padding-left: 1rem;
+}
+
+h2::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.2em;
+  width: 4px;
+  height: 1.2em;
+  background-color: var(--global-text-color);
+}
+
+/* 4. 卡片样式 - 简历卡片 */
+.card, .post-card, .project-card, article {
+  background: var(--global-card-bg-color);
+  border: 1px solid var(--global-border-color);
+  border-left: 4px solid var(--global-text-color);
+  border-radius: 0;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
 }
 
 .card::before, .post-card::before {
@@ -73,12 +142,228 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  right: 0;
-  height: 2px;
-  background: linear-gradient(90deg, transparent, var(--global-theme-color), transparent);
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(90deg, 
+    transparent 0%, 
+    var(--global-border-color) 50%, 
+    transparent 100%);
 }
 
 .card:hover, .post-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   transform: translateY(-2px);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+  border-left-color: var(--global-hover-color);
+}
+
+/* 5. 列表样式 - 时间线效果 */
+.timeline-list {
+  list-style: none;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.timeline-list li {
+  position: relative;
+  padding: 0.5rem 0 0.5rem 2rem;
+  margin-bottom: 1rem;
+}
+
+.timeline-list li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 1rem;
+  width: 12px;
+  height: 12px;
+  border: 2px solid var(--global-text-color);
+  border-radius: 50%;
+  background: var(--global-bg-color);
+  z-index: 1;
+}
+
+.timeline-list li::after {
+  content: '';
+  position: absolute;
+  left: 5px;
+  top: 1.5rem;
+  width: 2px;
+  height: calc(100% - 0.5rem);
+  background: var(--global-border-color);
+}
+
+.timeline-list li:last-child::after {
+  display: none;
+}
+
+/* 6. 链接样式 */
+a {
+  color: var(--global-text-color);
+  text-decoration: none;
+  position: relative;
+  font-weight: 500;
+}
+
+a:hover {
+  color: var(--global-hover-color);
+}
+
+/* 链接下划线效果 */
+a:not(.btn)::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background-color: var(--global-text-color);
+  transition: width 0.3s ease;
+}
+
+a:not(.btn):hover::after {
+  width: 100%;
+}
+
+/* 7. 代码块样式 */
+pre, code {
+  background-color: var(--global-code-bg-color);
+  border: 1px solid var(--global-border-color);
+  border-left: 3px solid var(--global-text-color-light);
+  border-radius: 0;
+}
+
+/* 8. 按钮样式 */
+.btn {
+  border: 2px solid var(--global-text-color);
+  background: transparent;
+  color: var(--global-text-color);
+  border-radius: 0;
+  padding: 0.5rem 1.5rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: var(--global-text-color);
+  color: var(--global-bg-color);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* 9. 页脚样式 */
+.footer {
+  background-color: var(--global-footer-bg-color);
+  border-top: 1px solid var(--global-border-color);
+  padding: 2rem 0;
+  margin-top: 3rem;
+  position: relative;
+}
+
+.footer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 10%;
+  right: 10%;
+  height: 1px;
+  background: linear-gradient(90deg, 
+    transparent 0%, 
+    var(--global-border-color) 25%, 
+    var(--global-border-color) 75%, 
+    transparent 100%);
+}
+
+/* 10. 技能条样式（简历专用） */
+.skill-bar {
+  background-color: var(--global-border-color);
+  height: 6px;
+  border-radius: 3px;
+  margin: 0.5rem 0 1rem 0;
+  overflow: hidden;
+}
+
+.skill-level {
+  height: 100%;
+  background: linear-gradient(90deg, 
+    var(--global-text-color-light), 
+    var(--global-text-color));
+  border-radius: 3px;
+  transition: width 1.5s ease-in-out;
+}
+
+/* 11. 分割线装饰 */
+hr {
+  border: none;
+  height: 1px;
+  background: linear-gradient(90deg, 
+    transparent 0%, 
+    var(--global-border-color) 50%, 
+    transparent 100%);
+  margin: 2rem 0;
+}
+
+/* 12. 导航栏样式 */
+.navbar {
+  background-color: var(--global-bg-color);
+  border-bottom: 1px solid var(--global-border-color);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+/* 13. 页头装饰线条 */
+.page-header {
+  position: relative;
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+}
+
+.page-header::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: repeating-linear-gradient(
+    90deg,
+    transparent,
+    transparent 2px,
+    var(--global-border-color) 2px,
+    var(--global-border-color) 4px
+  );
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+  body::before {
+    display: none;
+  }
+  
+  .card, .post-card {
+    border-left-width: 3px;
+  }
+  
+  h2 {
+    padding-left: 0.5rem;
+  }
+  
+  h2::before {
+    width: 3px;
+  }
+}
+
+/* 打印优化 */
+@media print {
+  body {
+    background: white !important;
+    background-image: none !important;
+  }
+  
+  .card, .post-card {
+    box-shadow: none !important;
+    border: 1px solid #ddd !important;
+  }
+  
+  .btn {
+    display: none !important;
+  }
 }
