@@ -73,8 +73,25 @@ I am a **Master's student in Journalism and Communication (Class of 2025)** at *
 
 ---
 
-## 4 Contact Information
+## 4 More About Me
+
+#### Personality Traits
+My **MBTI personality type is ESTJ (Executive)**, which makes me a **practical, efficient, and results-oriented** individual. I excel at planning and executing strategies decisively. In both academic and professional settings, my **logical thinking and organizational skills** enable me to handle complex problems effectively. However, this doesn't mean I'm inflexible – I thrive on **challenging and dynamic work** that provides continuous learning opportunities and intellectual stimulation.
+
+#### Interests & Hobbies
+My greatest passions are **reading and communication**. I thoroughly enjoy the process of sharing ideas and exchanging perspectives through writing and conversation. For me, **the collision of thoughts and exchange of viewpoints** represents one of life's greatest pleasures. I love engaging in deep discussions on various topics, ranging from academic subjects to life reflections, and from social phenomena to personal growth.
+
+#### Literary Preferences
+My favorite author is **Japanese mystery writer Kotaro Isaka**, and I'm particularly fond of his work **"Golden Dream"**. Isaka's writing not only features intricate plot structures but is also imbued with **warm humanistic concern and profound insights into life**. The theme of **finding hope and miracles in ordinary life** in "Golden Dream" deeply resonates with me. His work teaches me that even in the most mundane daily routines, there are beautiful stories worth telling.
+
+#### Hometown & Current City
+- **Hometown**: I come from **Liupanshui, Guizhou**, a city known as **"China's Cool Capital"**. Liupanshui's **mild climate, rich ethnic minority cultures, and magnificent natural landscapes** have shaped my appreciation for diversity and inclusiveness. The mountains and rivers there provide me with serenity, while the multicultural environment has taught me to appreciate different cultural perspectives.
+- **Current City**: I'm currently studying in **Nanjing, Jiangsu**. As **the ancient capital of six dynasties**, Nanjing seamlessly blends profound historical heritage with modern urban vitality. The city's strong academic atmosphere and its open, inclusive spirit provide an ideal environment for my learning and personal growth.
+
+---
+
+## 5 Contact Information
 
 - School of Journalism and Communication, Nanjing University
-- 163 Xianlin Avenue, Qixia District, Nanjing, Jiangsu Province, China (Nanjing University Xianlin Campus) (Postcode: 210023)
+- 163 Xianling Avenue, Qixia District, Nanjing, Jiangsu Province, China (Nanjing University Xianlin Campus) (Postcode: 210023)
 - **Email**: 18216827601@163.com
