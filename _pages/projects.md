@@ -1,83 +1,70 @@
 ---
 layout: page
-title: 项目展示
+title: 研究项目与成果
 permalink: /projects/
-description: 我的学术与实践项目集
+description: 我的学术与实践项目集，包括研究生阶段的研究项目和本科阶段的实践项目。
 nav: true
 nav_order: 2
-display_categories: [本科, 研究生]
+display_categories: [研究生，本科]
 horizontal: false
 ---
 
 <!-- pages/projects.md -->
 <div class="projects">
 
-<!-- 本科项目 -->
-<h2 class="category">本科项目</h2>
-  
-<!-- 项目1: 心力衰竭预测 -->
-<div class="card project-card">
-  <div class="card-body">
-    <h3 class="card-title">基于机器学习的心力衰竭预测系统</h3>
-    <div class="project-date">2022年6月</div>
-    <div class="card-text">
-      <p>使用患者临床数据分析预测心力衰竭风险的机器学习项目。</p>
-      <ul>
-        <li>对临床数据集进行数据预处理和特征工程</li>
-        <li>优化多种机器学习模型（随机森林、XGBoost、SVM）以达到最佳准确率</li>
-        <li>调整超参数并实施交叉验证策略</li>
-        <li>在心力衰竭结果预测中达到92%的准确率</li>
-      </ul>
-    </div>
-    <div class="project-meta">
-      <span class="badge bg-primary">机器学习</span>
-      <span class="badge bg-secondary">医疗健康</span>
-      <span class="badge bg-info">Python</span>
-    </div>
-  </div>
-</div>
-
-<!-- 项目2: 医学NER系统 -->
-<div class="card project-card">
-  <div class="card-body">
-    <h3 class="card-title">医学命名实体识别系统</h3>
-    <div class="project-date">2024年4月</div>
-    <div class="card-text">
-      <p>毕业设计：使用开源大语言模型开发医学文本命名实体识别系统。</p>
-      <ul>
-        <li>利用ChatGLM开源语言模型进行实体识别</li>
-        <li>开发了全面的医学文本实体识别系统</li>
-        <li>实现了结果可视化展示界面</li>
-        <li>添加了结果导出和手动校正功能</li>
-        <li>在医学文本识别任务中达到93%的F1分数</li>
-      </ul>
-    </div>
-    <div class="project-meta">
-      <span class="badge bg-primary">自然语言处理</span>
-      <span class="badge bg-secondary">医疗健康</span>
-      <span class="badge bg-info">ChatGLM</span>
-      <span class="badge bg-success">Web开发</span>
-    </div>
-  </div>
-</div>
-
 <!-- 研究生项目 -->
 <div class="graduate-section">
   <h2 class="category">研究生项目</h2>
   
-  <!-- 项目3: 网络视听内容创意方案策划 -->
+  <!-- 新增项目：数据新闻项目 -->
   <div class="card project-card">
     <div class="card-body">
-      <h3 class="card-title">网络视听内容创意方案策划</h3>
+      <h3 class="card-title">数据新闻：《全球健康大进步中谁被遗忘了？数说年轻人死亡数据异常》</h3>
+      <div class="project-date">2025年12月</div>
+      <div class="card-text">
+        <p>基于全球疾病负担研究（GBD）数据库的数据新闻项目，通过数据分析和可视化揭示全球健康进步背景下年轻群体的异常死亡趋势。</p>
+        <ul>
+          <li><strong>数据来源</strong>：全球疾病负担研究（GBD）数据库</li>
+          <li><strong>技术工具</strong>：Python（pandas, matplotlib, seaborn）进行数据分析和可视化</li>
+          <li><strong>研究内容</strong>：
+            <ul>
+              <li>全球整体死亡率变化趋势分析</li>
+              <li>各大洲和不同经济水平国家的死亡率对比</li>
+              <li>老年群体与幼儿群体死亡率变化规律</li>
+              <li>年轻群体死亡数据的异常变化识别</li>
+              <li>各年龄组死因分析及对比</li>
+              <li>疫情期间相关死亡率数据的时空分析</li>
+              <li>疫情前后死因变化对比</li>
+              <li>疫情后年轻人抑郁焦虑及自杀数据的追踪研究</li>
+            </ul>
+          </li>
+          <li><strong>成果产出</strong>：撰写4000字深度数据新闻稿件，制作成推文并**将在校媒上进行发表**，通过数据叙事揭示当下年轻人正面临的结构性社会压力</li>
+          <li><strong>核心发现</strong>：在全球平均寿命持续提高的背景下，年轻群体死亡率变化出现异常趋势，同时死因变化反映了深层次的社会问题</li>
+        </ul>
+      </div>
+      <div class="project-meta">
+        <span class="badge bg-primary">数据新闻</span>
+        <span class="badge bg-secondary">数据分析</span>
+        <span class="badge bg-info">Python</span>
+        <span class="badge bg-success">数据可视化</span>
+        <span class="badge bg-warning">公共卫生</span>
+      </div>
+    </div>
+  </div>
+  
+  <!-- 项目2: 网络视听内容创意方案策划 -->
+  <div class="card project-card">
+    <div class="card-body">
+      <h3 class="card-title">网络视听内容创意策划案：《跟着AI去旅游》</h3>
       <div class="project-date">2025年10月</div>
       <div class="card-text">
-        <p>设计融合AI与旅游的综艺节目《跟着AI去旅游》，完成从创意到落地的全流程策划。</p>
+        <p>设计融合AI与旅游的综艺节目《跟着AI去旅游》，完成从创意提出到策划方案撰写。</p>
         <ul>
-          <li>创意背景：结合AI技术与旅游体验，打造全新综艺模式</li>
-          <li>节目流程：AI导游规划路线→明星体验→观众互动→AI生成旅行报告</li>
-          <li>融合传播策略：短视频预热+直播互动+AI生成个性化旅行攻略</li>
-          <li>可行性分析：技术实现路径、市场接受度评估、商业模式设计</li>
-          <li>创新点：AI实时生成旅行路线，观众投票决定行程方向</li>
+          <li><strong>创意背景</strong>：结合AI技术与旅游体验，打造一款适合年轻人的可复刻可借鉴的全新综艺模式</li>
+          <li><strong>节目流程</strong>：AI导游规划路线→明星体验→观众互动→带动观众线下参与→相关文旅产品销售→生成旅途数据报告</li>
+          <li><strong>融合传播策略</strong>：自媒体平台短视频预热+直播互动+自有平台个性化定制旅游路线+自有平台互动</li>
+          <li><strong>可行性分析</strong>：本策划案进行了详细的可行性分析，包括技术实现路径、市场接受度评估、商业模式设计等</li>
+          <li><strong>创新点</strong>：AI实时生成旅行路线顺应AI发展趋势，加入创新元素和不确定元素吸引观众注意力，观众可通过自有平台AI一键生成定制化路线</li>
         </ul>
       </div>
       <div class="project-meta">
@@ -92,9 +79,60 @@ horizontal: false
   <!-- 研究生项目占位提示 -->
   <div class="more-projects text-center py-4">
     <h4>更多项目筹备中</h4>
-    <p class="lead">我正在计算传播学领域探索更多创新项目，将很快更新！</p>
+    <p class="lead">我目前正在计算传播学领域探索更多创新项目，将很快更新！</p>
     <div class="mt-3">
       <i class="fas fa-rocket fa-2x text-primary"></i>
+    </div>
+  </div>
+</div>
+
+<!-- 本科项目 -->
+<h2 class="category">本科项目</h2>
+  
+<!-- 项目1: 心力衰竭预测 -->
+<div class="card project-card">
+  <div class="card-body">
+    <h3 class="card-title">基于机器学习的心力衰竭患者死亡率预测</h3>
+    <div class="project-date">2022年6月</div>
+    <div class="card-text">
+      <p>使用患者临床数据分析预测心力衰竭死亡风险的机器学习项目。</p>
+      <ul>
+        <li>对临床数据集进行数据预处理和特征工程</li>
+        <li>优化多种机器学习模型（随机森林、XGBoost、SVM）以达到最佳准确率</li>
+        <li>调整超参数并实施交叉验证策略</li>
+        <li>在心力衰竭死亡结果预测中最好的模型达到95%的准确率</li>
+      </ul>
+    </div>
+    <div class="project-meta">
+      <span class="badge bg-primary">机器学习</span>
+      <span class="badge bg-secondary">医疗健康</span>
+      <span class="badge bg-info">Python</span>
+    </div>
+  </div>
+</div>
+
+<!-- 项目2: 医学NER系统 -->
+<div class="card project-card">
+  <div class="card-body">
+    <h3 class="card-title">基于开源大语言模型的中文医学命名实体识别系统</h3>
+    <div class="project-date">2024年4月</div>
+    <div class="card-text">
+      <p>毕业设计：基于开源大语言模型的中文医学文本命名实体识别系统设计与开发。</p>
+      <ul>
+        <li>申请并获得测试所用的中文医学文本</li>
+        <li下载并部署两个开源大模型chatglm和zhixi</li>
+        <li>进行需求分析和系统整体设计，撰写系统开发需求文档</li>
+        <li>使用python语言、VScode平台进行系统的详细代码实现</li>
+        <li>设计并实现的功能包括实体识别、选择不同大模型、自定义识别类型、手动纠错、可视化呈现、下载并保存</li>
+        <li>撰写系统使用文档</li>
+        <li>进行系统测试并整理成毕业论文</li>
+      </ul>
+    </div>
+    <div class="project-meta">
+      <span class="badge bg-primary">ner</span>
+      <span class="badge bg-secondary">开源大语言模型</span>
+      <span class="badge bg-info">中文医学文本</span>
+      <span class="badge bg-success">Web开发</span>
     </div>
   </div>
 </div>
@@ -143,11 +181,20 @@ horizontal: false
   font-weight: 600;
 }
 
-/* 研究生项目部分样式 */
+/* 研究生项目部分样式 - 现在放在顶部 */
 .graduate-section {
-  margin-top: 3rem;
-  padding-top: 2rem;
-  border-top: 2px dashed #dee2e6;
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+}
+
+/* 研究生项目卡片特殊样式 */
+.graduate-section .project-card {
+  border-left: 4px solid #4e73df;
+}
+
+/* 本科项目卡片样式 */
+.category:last-of-type ~ .project-card {
+  border-left: 4px solid #1cc88a;
 }
 
 .more-projects {
@@ -175,9 +222,14 @@ horizontal: false
   line-height: 1.6;
 }
 
-/* 研究生项目特殊样式 */
-.graduate-section .project-card {
-  border-left: 4px solid #4e73df;
+/* 新增项目的特殊强调 */
+.graduate-section .project-card:first-child {
+  border-left: 4px solid #e74a3b;
+  box-shadow: 0 4px 15px rgba(231, 74, 59, 0.1);
+}
+
+.graduate-section .project-card:first-child:hover {
+  box-shadow: 0 8px 25px rgba(231, 74, 59, 0.15);
 }
 
 /* 响应式调整 */
