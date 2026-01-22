@@ -106,7 +106,7 @@ horizontal: false
     <div class="project-meta">
       <span class="badge bg-primary">机器学习</span>
       <span class="badge bg-secondary">医疗健康</span>
-      <span class="badge bg-info">Python</span>
+      <span class="badge bg-info">死亡率预测</span>
     </div>
   </div>
 </div>
