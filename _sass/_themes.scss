@@ -1,5 +1,5 @@
 /*******************************************************************************
- * 简历风格主题
+ * 简历风格主题 - 仅亮色模式
  ******************************************************************************/
 
 :root {
@@ -38,13 +38,9 @@
   --global-danger-block-text: #c0392b;
   --global-danger-block-title: #e74c3c;
 
-  /* 图标切换 */
-  .fa-sun { display: none; }
-  .fa-moon { 
-    padding-left: 10px;
-    padding-top: 12px;
-    display: block; 
-  }
+  /* 移除深色模式切换图标显示 */
+  .fa-sun { display: none !important; }
+  .fa-moon { display: none !important; }
   .repo-img-light { display: block; }
   .repo-img-dark { display: none; }
 }
@@ -366,4 +362,9 @@ hr {
   .btn {
     display: none !important;
   }
+}
+
+/* 隐藏主题切换按钮 */
+.theme-toggle, .mode-toggle, .dark-mode-toggle {
+  display: none !important;
 }
