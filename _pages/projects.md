@@ -38,7 +38,7 @@ horizontal: false
               <li>疫情后年轻人抑郁焦虑及自杀数据的追踪研究</li>
             </ul>
           </li>
-          <li><strong>成果产出</strong>：撰写<strong>4000字深度数据新闻稿件</strong>，制作成推文并<strong>将在校媒上进行发表<strong>，通过数据叙事揭示当下年轻人正面临的结构性社会压力</li>
+          <li><strong>成果产出</strong>：撰写<strong>4000字深度数据新闻稿件</strong>，制作成推文并<strong>将在校媒上进行发表</strong>，通过数据叙事揭示当下年轻人正面临的结构性社会压力</li>
           <li><strong>核心发现</strong>：在全球平均寿命持续提高的背景下，年轻群体死亡率变化出现异常趋势，同时死因变化反映了深层次的社会问题</li>
         </ul>
       </div>
@@ -86,7 +86,7 @@ horizontal: false
     <h3 class="card-title">基于开源大语言模型的中文医学命名实体识别系统</h3>
     <div class="project-date">2024年5月</div>
     <div class="card-text">
-      <p><strong>毕业设计<strong>：基于开源大语言模型的中文医学文本命名实体识别系统设计与开发。</p>
+      <p><strong>毕业设计</strong>：基于开源大语言模型的中文医学文本命名实体识别系统设计与开发。</p>
       <ul>
         <li>申请并获得测试所用的中文医学文本</li>
         <li>下载并部署两个开源大模型<strong>ChatGLM</strong>和<strong>智析</strong></li>
