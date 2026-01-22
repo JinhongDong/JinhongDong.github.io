@@ -3,7 +3,7 @@ layout: page
 permalink: /Research/
 title: 研究兴趣与成果
 description: 通过数据发现故事，通过计算理解情感
-nav: true
+nav: false
 nav_order: 3
 ---
 
