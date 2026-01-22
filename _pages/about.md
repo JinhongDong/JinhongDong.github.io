@@ -1,18 +1,18 @@
 ---
 layout: about
-title: JinhongDong
+title: Jinhong Dong
 permalink: /JinhongDong
 profile:
   align: right
   image: avatar.jpg
-  image_circular: true # crops the image to make it circular
-  address: 
-news: false  # includes a list of news items
-latest_posts: false  # includes a list of the newest posts
-selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+  image_circular: true
+  address: >
+news: false
+latest_posts: false
+selected_papers: false
+social: false
 nav: true
-nav_order: 6
+nav_order: 5
 ---
 
 # Hello! I'm Jinhong Dong
