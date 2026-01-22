@@ -3,40 +3,46 @@
  ******************************************************************************/
 
 :root {
-  --global-bg-color: #e3f2fd;  // 浅蓝色背景
-  --global-code-bg-color: #{$code-bg-color-light};
-  --global-text-color: #{$black-color};
-  --global-text-color-light: #{$grey-color};
-  --global-theme-color: #1976d2;  // 主蓝色主题色
-  --global-hover-color: #1565c0;  // 深蓝色悬停色
-  --global-hover-text-color: #{$white-color};
-  --global-footer-bg-color: #1976d2;  // 蓝色页脚背景
-  --global-footer-text-color: #{$white-color};
-  --global-footer-link-color: #{$white-color};
-  --global-distill-app-color: #{$grey-color};
-  --global-divider-color: rgba(25, 118, 210, 0.1);  // 蓝色分割线
-  --global-card-bg-color: #{$white-color};
+  --global-bg-color: #1a1a1a;  // 深灰背景
+  --global-bg-pattern: linear-gradient(90deg, #1a1a1a 21px, transparent 1%) center, 
+                       linear-gradient(#1a1a1a 21px, transparent 1%) center, #2a2a2a;
+  --global-bg-size: 22px 22px;
+  --global-code-bg-color: #2d2d2d;
+  --global-text-color: #e0e0e0;
+  --global-text-color-light: #aaaaaa;
+  --global-theme-color: #d4af37;  // 金色主题色
+  --global-hover-color: #b8941f;
+  --global-hover-text-color: #ffffff;
+  --global-footer-bg-color: #0a0a0a;
+  --global-footer-text-color: #e0e0e0;
+  --global-footer-link-color: #d4af37;
+  --global-distill-app-color: #aaaaaa;
+  --global-divider-color: rgba(212, 175, 55, 0.3);  // 金色半透明分割线
+  --global-card-bg-color: #252525;
+  --global-border-style: 1px solid rgba(212, 175, 55, 0.2);
+  --global-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3), 
+                       0 1px 3px rgba(0, 0, 0, 0.2);
 
-  --global-tip-block: #1976d2;  // 蓝色提示块
-  --global-tip-block-bg: #e3f2fd;
-  --global-tip-block-text: #0d47a1;
-  --global-tip-block-title: #1565c0;
+  --global-tip-block: #d4af37;
+  --global-tip-block-bg: rgba(212, 175, 55, 0.1);
+  --global-tip-block-text: #f0e6d2;
+  --global-tip-block-title: #d4af37;
   --global-warning-block: #ff9800;
-  --global-warning-block-bg: #fff3e0;
-  --global-warning-block-text: #e65100;
-  --global-warning-block-title: #f57c00;
+  --global-warning-block-bg: rgba(255, 152, 0, 0.1);
+  --global-warning-block-text: #ffe0b2;
+  --global-warning-block-title: #ffb74d;
   --global-danger-block: #f44336;
-  --global-danger-block-bg: #ffebee;
-  --global-danger-block-text: #b71c1c;
-  --global-danger-block-title: #d32f2f;
+  --global-danger-block-bg: rgba(244, 67, 54, 0.1);
+  --global-danger-block-text: #ffcdd2;
+  --global-danger-block-title: #ef5350;
 
   .fa-sun {
-    display : none;
+    display: none;
   }
   .fa-moon {
     padding-left: 10px;
     padding-top: 12px;
-    display : block;
+    display: block;
   }
 
   .repo-img-light {
@@ -47,47 +53,32 @@
   }
 }
 
-html[data-theme='dark'] {
-  --global-bg-color: #0d47a1;  // 深蓝色背景
-  --global-code-bg-color: #1a237e;  // 深蓝色代码背景
-  --global-text-color: #{$grey-color-light};
-  --global-text-color-light: #{$grey-color-light};
-  --global-theme-color: #90caf9;  // 浅蓝色主题色（深色模式）
-  --global-hover-color: #64b5f6;  // 中等蓝色悬停色
-  --global-hover-text-color: #{$white-color};
-  --global-footer-bg-color: #1565c0;  // 深蓝色页脚背景
-  --global-footer-text-color: #{$white-color};
-  --global-footer-link-color: #90caf9;
-  --global-distill-app-color: #{$grey-color-light};
-  --global-divider-color: #1976d2;  // 蓝色分割线
-  --global-card-bg-color: #1a237e;  // 深蓝色卡片背景
+/* 添加全局背景图案 */
+body {
+  background: var(--global-bg-pattern);
+  background-size: var(--global-bg-size);
+  background-attachment: fixed;
+}
 
-  --global-tip-block: #90caf9;
-  --global-tip-block-bg: #0d47a1;
-  --global-tip-block-text: #e3f2fd;
-  --global-tip-block-title: #64b5f6;
-  --global-warning-block: #ffb74d;
-  --global-warning-block-bg: #5d4037;
-  --global-warning-block-text: #ffccbc;
-  --global-warning-block-title: #ff9800;
-  --global-danger-block: #ef5350;
-  --global-danger-block-bg: #b71c1c;
-  --global-danger-block-text: #ffebee;
-  --global-danger-block-title: #f44336;
+/* 添加卡片装饰线 */
+.card, .post-card, article {
+  position: relative;
+  border: var(--global-border-style);
+  box-shadow: var(--global-box-shadow);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
-  .fa-sun {
-    padding-left: 10px;
-    padding-top: 12px;
-    display : block;
-  }
-  .fa-moon {
-    display : none;
-  }
+.card::before, .post-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--global-theme-color), transparent);
+}
 
-  .repo-img-light {
-    display: none;
-  }
-  .repo-img-dark {
-    display: block;
-  }
+.card:hover, .post-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
 }
