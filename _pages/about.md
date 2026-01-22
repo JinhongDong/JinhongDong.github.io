@@ -15,53 +15,66 @@ nav: true
 nav_order: 6
 ---
 
-# Jinhong Dong's personal website
+# Hello! I'm Jinhong Dong
 
-Big Moon Changing the World
+**A unique blend of traditional and non-traditional Journalism & Communication student**
 
-## Hello! I'm Jinhong Dong
+---
 
-I am a 2025 Master's student in Journalism and Communication at Nanjing University, specializing in computational communication. I graduated from Nanjing Medical University with a bachelor's degree in Intelligent Medical Engineering, which gives me an interdisciplinary background combining medicine and engineering. I am enthusiastic about data science and computational social science, dedicated to exploring how technology can empower communication research, especially through data mining and machine learning methods to analyze human communication behavior and social phenomena.
+## 1 About Me
 
-## Educational Background
+I am a **Master's student in Journalism and Communication (Class of 2025)** at **Nanjing University**, specializing in **Computational Communication**, supervised by Professor Keke Shang. I completed my undergraduate studies in **Intelligent Medical Engineering** at **Nanjing Medical University**, an interdisciplinary field combining medicine and engineering.
 
-- Nanjing University, Master of Journalism and Communication, Computational Communication (2025-2028, in progress)
-- Nanjing Medical University, Bachelor of Engineering, Intelligent Medical Engineering (2020-2024)
-- Relevant Courses: Introduction to Computational Communication, Data Journalism, Python Data Analysis, Social Network Analysis, etc.
+**During my undergraduate studies**, I developed **strong logical thinking and analytical skills in science and engineering**. I excel at systematic problem analysis, breaking down complex issues into manageable steps, and identifying key points for resolution. I am highly practical and action-oriented – once I have a general plan, I immediately begin implementation. I believe **actions speak louder than words**, and the best approach to problem-solving is **rapid iteration and experimentation**.
 
-## Skills
+**In my graduate studies**, I have systematically developed **strong writing and communication skills**. I have acquired foundational theoretical knowledge in journalism and communication, mastering copywriting techniques that enable me to proficiently write news articles, commentaries, scripts, and proposals. Additionally, I am **highly skilled in using new media tools for content creation**, including photo editing with PS or Xingtu, video editing with Jianying, graphic design with Canva, and WeChat article layout with Xiumi Editor.
 
-- Programming Languages: Python (proficient), R, SQL
-- Data Analysis: Pandas, NumPy, Scikit-learn
-- Visualization Tools: Matplotlib, Seaborn, Tableau
-- Languages: Chinese (native), English (CET-6, able to read professional literature fluently)
+---
 
-## Research Interests
+## 2 Education
 
-- Computational Communication Methods and Theory
-- Data Journalism and Visualization
+- **2025/09 - Present**, **Nanjing University**, **Journalism and Communication**, Master's Degree  
+  Core Courses: Foundations of Journalism and Communication Theory, New Media Studies, Digital Journalism, Network Data Analysis, Introduction to Computational Communication.
 
-## Project Experience
+- **2020/09 - 2024/06**, **Nanjing Medical University**, **Intelligent Medical Engineering**, Bachelor's Degree  
+  **GPA: 3.7 (Top 15% of Major)**  
+  Core Courses: Advanced Mathematics, Mathematical Statistics, Python Programming, Machine Learning, Database Principles.
 
-I have participated in several projects, including:
+---
 
-- **Intelligent Q&A System**: Clinical Q&A system based on open-source large language models
-- **Data Analysis Project**: Analysis and visualization of publicly available heart failure patient datasets
+## 3 Skills
 
-## Hobbies and Interests
+#### Programming Languages
+- **Python (Proficient)** - Used Python to develop a fully functional system for my undergraduate graduation project
+- **Java (Familiar)** - **Awarded Second Prize in Jiangsu Provincial Blue Bridge Cup Programming Competition (Java Group)**
 
-Beyond academic research, I love outdoor cycling and exploring urban and natural landscapes. I have completed several long-distance cycling challenges, including cycling around Taihu Lake. If there are fellow cycling enthusiasts, welcome to exchange cycling routes and experiences! I also enjoy reading and traveling, believing that diverse life experiences can bring new inspiration to academic research.
+#### Database
+- **SQL** - Master syntax and proficiently use SELECT, WHERE, functions, grouping, table joins, subqueries, views, etc.
+- **MySQL Database Management Tools (Proficient)** - Extensive practice using MySQL databases in coursework
 
-<!--
-<img src="https://user-images.githubusercontent.com/543384/178952701-6e595809-3059-41d4-9d88-356a9b339445.png" align = "middle" width = "800px">
--->
+#### Data Analysis & Visualization
+- Proficient in using Python's requests and BeautifulSoup libraries for **data scraping**
+- Familiar with **data cleaning processes**, including importing data, viewing data and descriptive statistics, handling duplicates and missing values, data standardization, and Chinese jieba word segmentation
+- Skilled in using Python's matplotlib and seaborn for **data visualization**, created a complete data journalism project for publication
 
-<!--
-<br>
+#### New Media Tools
+- **Video Production**: Skilled in writing various video scripts, proficient in **video editing with Jianying** with experience editing **over 1,000 videos**, including 15-second short videos and 1-3 minute vlog-style videos
+- **WeChat Article Creation**: Experienced in writing and formatting WeChat articles, **created dozens of articles using Xiumi Editor**
+- **Graphic Design**: Familiar with various design styles, **designed dozens of new media content covers using Canva**
+- **New Media Account Operation & Monetization**: Independently operated Douyin (TikTok) and Xiaohongshu (Little Red Book) accounts, familiar with both platforms' ecosystems, created thousands of short videos following trends, **produced 5 videos with over 10,000 likes on Douyin**, experienced in **commercial video scriptwriting** and copywriting, skilled in negotiating rates and collaboration details with partners
 
-<a href="https://github.com/JinhongDong/JinhongDong.github.io/edit/master/_pages/about.md">
- <img src="https://user-images.githubusercontent.com/543384/192227995-fdb3a693-2f68-4dc4-b9bd-06053066322f.png" width = "800" align="middle" />
-</a>
+#### Language Proficiency
+- **Chinese (Native) (Mandarin Level 2A Certificate)**
+- **English (CET-6)**, proficient in reading and speaking, capable of daily communication with native English speakers
 
-<br>
--->
+#### Other Qualifications
+- **National Computer Rank Examination Level 2 & 3**
+- **Driver's License (Class C2)**
+
+---
+
+## 4 Contact Information
+
+- School of Journalism and Communication, Nanjing University
+- 163 Xianlin Avenue, Qixia District, Nanjing, Jiangsu Province, China (Nanjing University Xianlin Campus) (Postcode: 210023)
+- **Email**: 18216827601@163.com
