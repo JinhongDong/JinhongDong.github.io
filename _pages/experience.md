@@ -1,10 +1,10 @@
 ---
 layout: page
 permalink: /experience/
-title: 经历
-description: 校园生活与实习经历
+title: 校园经历
+description: 在研究生和本科阶段所担任的学生干部经历、参与的大型活动经历
 nav: true
-nav_order: 4
+nav_order: 3
 ---
 
 ### 本科校园经历
